@@ -1,0 +1,144 @@
+{
+  "champion_model": "Linear Regression (OLS)",
+  "metrics": {
+    "Linear Regression (OLS)": {
+      "MAE": 1.18,
+      "RMSE": 1.46,
+      "R2": 0.9861,
+      "MedAPE_pct": 3.21,
+      "MeanAPE_pct": 3.81,
+      "bracket_coverage_pct": 70.83
+    },
+    "Ridge Regression (L2)": {
+      "MAE": 1.26,
+      "RMSE": 1.6,
+      "R2": 0.9833,
+      "MedAPE_pct": 3.34,
+      "MeanAPE_pct": 3.85,
+      "bracket_coverage_pct": 70.0
+    },
+    "Random Forest Regressor": {
+      "MAE": 1.18,
+      "RMSE": 1.6,
+      "R2": 0.9832,
+      "MedAPE_pct": 3.56,
+      "MeanAPE_pct": 3.47,
+      "bracket_coverage_pct": 68.33
+    },
+    "Gradient Boosting Regressor": {
+      "MAE": 1.27,
+      "RMSE": 1.75,
+      "R2": 0.98,
+      "MedAPE_pct": 3.27,
+      "MeanAPE_pct": 3.8,
+      "bracket_coverage_pct": 67.5
+    }
+  },
+  "sample_counts": {
+    "total": 600,
+    "train": 480,
+    "test": 120
+  },
+  "top_features": [
+    {
+      "feature": "skill_Rust",
+      "importance": 20.02667
+    },
+    {
+      "feature": "skill_Kubernetes",
+      "importance": 13.07118
+    },
+    {
+      "feature": "skill_Databricks",
+      "importance": 11.34453
+    },
+    {
+      "feature": "skill_Terraform",
+      "importance": 10.17805
+    },
+    {
+      "feature": "skill_Airflow",
+      "importance": 8.71527
+    },
+    {
+      "feature": "experience_tier_Lead / Staff (9-12 yrs)",
+      "importance": 8.62514
+    },
+    {
+      "feature": "skill_Apache Kafka",
+      "importance": 7.94567
+    },
+    {
+      "feature": "skill_Swift / iOS",
+      "importance": 7.70004
+    },
+    {
+      "feature": "experience_tier_Principal / Director (12+ yrs)",
+      "importance": 7.68178
+    },
+    {
+      "feature": "skill_Linux",
+      "importance": 7.4524
+    },
+    {
+      "feature": "skill_Snowflake",
+      "importance": 5.78974
+    },
+    {
+      "feature": "skill_dbt",
+      "importance": 5.78974
+    },
+    {
+      "feature": "skill_Agile / Scrum",
+      "importance": 5.77732
+    },
+    {
+      "feature": "experience_tier_Entry-Level (0-2 yrs)",
+      "importance": 5.59726
+    },
+    {
+      "feature": "skill_Vector Databases",
+      "importance": 5.14661
+    },
+    {
+      "feature": "skill_PostgreSQL",
+      "importance": 5.01592
+    },
+    {
+      "feature": "skill_SQL",
+      "importance": 4.51758
+    },
+    {
+      "feature": "years_exp",
+      "importance": 4.51479
+    },
+    {
+      "feature": "skill_Next.js",
+      "importance": 4.22176
+    },
+    {
+      "feature": "skill_gRPC",
+      "importance": 3.55493
+    },
+    {
+      "feature": "skill_PyTorch",
+      "importance": 3.5173
+    },
+    {
+      "feature": "skill_Docker",
+      "importance": 3.45094
+    },
+    {
+      "feature": "region_Bengaluru (Bangalore)",
+      "importance": 3.21227
+    },
+    {
+      "feature": "skill_Spring Boot",
+      "importance": 3.16011
+    },
+    {
+      "feature": "skill_MySQL",
+      "importance": 3.16011
+    }
+  ]
+}
